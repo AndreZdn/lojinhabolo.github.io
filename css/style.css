@@ -1,0 +1,47 @@
+body{
+    font-family: arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+nav{
+    background-color: #333;
+    padding: 1em;
+    text-align: center;
+}
+nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+}
+.conteudo{
+    text-align: center;
+    padding: 50px;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+}
+.galeria img{
+    width: 300px;
+    margin: 10px;
+    border: 2px solid #333;
+    border-radius: 10px;
+}
+.videos video{
+    width: 600px;
+    border: 2px solid #333;
+    border-radius: 10px;
+}
